@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import { PORT } from "./constants";
+import { PORT } from "./src/constants";
 
-import * as serverService from "./services/server.service";
+import * as serverService from "./src/services/server.service";
 
 (async () => {
   try {
